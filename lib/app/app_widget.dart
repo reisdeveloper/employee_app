@@ -1,4 +1,5 @@
-import 'package:employee_app/onboarding/onboarding_page.dart';
+import 'package:employee_app/jobs/screens/home_page.dart';
+
 import 'package:flutter/material.dart';
 
 class AppWidget extends StatelessWidget {
@@ -7,8 +8,9 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Vagas de Emprego',
-      home: OnBoardingPage(),
+      home: HomePage(),
     );
   }
 }
